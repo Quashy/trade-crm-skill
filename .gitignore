@@ -1,0 +1,17 @@
+# 业务资料应保存在本仓库之外；以下忽略项仅防止常见误放。
+客户管理库/
+客户资料/
+business-data/
+private/
+
+# 本地凭据、编写临时文件和导出物。
+.env
+.env.*
+*.pem
+*.key
+work/
+outputs/
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
